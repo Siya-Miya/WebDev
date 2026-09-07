@@ -905,6 +905,99 @@ footer {
     color: white;
 }
 
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    border-top: 1px solid var(--border);
+
+    padding: 45px 30px;
+
+    max-width: var(--max-width);
+
+    margin: auto;
+}
+
+.footer-content {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.footer-logo {
+    color: var(--accent);
+
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+.footer-content p {
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+.footer-links {
+    display: flex;
+
+    gap: 25px;
+}
+
+.footer-links a {
+    color: var(--muted);
+
+    font-size: 13px;
+
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+
+/* =========================
+   INSTAGRAM ICON
+========================= */
+
+.instagram-link {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 50%;
+
+    transition: 0.3s ease;
+}
+
+.instagram-link img {
+    width: 50px;
+    height: 50px;
+
+    object-fit: contain;
+}
+
+.instagram-link:hover {
+    border-color: var(--accent);
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+
 .footer-bottom {
     margin-top: 35px;
 
@@ -1057,6 +1150,8 @@ footer {
     .footer-links {
         flex-wrap: wrap;
     }
+
+    
 
     .footer-bottom {
         flex-direction: column;
