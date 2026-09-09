@@ -645,6 +645,11 @@ section {
         );
 }
 
+
+/* =========================
+   LORI PROJECT
+========================= */
+
 .nail-project {
     background:
         radial-gradient(
@@ -657,6 +662,20 @@ section {
             #39202a,
             #12090d
         );
+
+    padding: 0;
+}
+
+.nail-project img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: top center;
+
+    display: block;
 }
 
 .project-label {
@@ -670,6 +689,8 @@ section {
     letter-spacing: 2px;
 
     font-weight: bold;
+
+    z-index: 2;
 }
 
 .project-preview {
@@ -850,60 +871,6 @@ section {
     color: #0b0b0d;
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-    border-top: 1px solid var(--border);
-
-    padding: 45px 30px;
-
-    max-width: var(--max-width);
-
-    margin: auto;
-}
-
-.footer-content {
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-}
-
-.footer-logo {
-    color: var(--accent);
-
-    font-size: 30px;
-
-    font-weight: bold;
-}
-
-.footer-content p {
-    color: var(--muted);
-
-    font-size: 13px;
-}
-
-.footer-links {
-    display: flex;
-
-    gap: 25px;
-}
-
-.footer-links a {
-    color: var(--muted);
-
-    font-size: 13px;
-
-    transition: 0.3s;
-}
-
-.footer-links a:hover {
-    color: white;
-}
 
 /* =========================
    FOOTER
@@ -1150,8 +1117,6 @@ footer {
     .footer-links {
         flex-wrap: wrap;
     }
-
-    
 
     .footer-bottom {
         flex-direction: column;
